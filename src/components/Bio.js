@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Bio.css';
-import profile1 from '/Users/avi/Desktop/personal_website/personal-website/src/Gradpic.jpeg';
-import profile2 from '/Users/avi/Desktop/personal_website/personal-website/src/grad.jpg';
-import profile3 from '/Users/avi/Desktop/personal_website/personal-website/src/hogwarts.jpg';
+import profile1 from '/Users/avi/Desktop/personal_website/src/Gradpic.jpeg';
+import profile2 from '/Users/avi/Desktop/personal_website/src/grad.jpg';
+import profile3 from '/Users/avi/Desktop/personal_website/src/hogwarts.jpg';
 
 const Bio = () => {
   const images = [profile1, profile2, profile3];
