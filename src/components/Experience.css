@@ -1,0 +1,147 @@
+/* src/components/Experience.css */
+
+.experience {
+  padding: 6rem 2rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 2.5rem;
+  color: #f05454;
+  margin-bottom: 3rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background: #ddd;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: #f05454;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.timeline-content-wrapper.left {
+  padding-left: 10%;
+  flex-direction: row-reverse;
+}
+
+.timeline-content-wrapper.right {
+  padding-right: 10%;
+}
+
+.company-logo {
+  flex: 0 0 150px;
+  margin: 0 1.5rem;
+}
+
+.company-logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+.timeline-content h3 {
+  font-size: 1.5rem;
+  color: #f05454;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content h4 {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content .experience-duration {
+  font-size: 1rem;
+  color: #666;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.timeline-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    padding-left: 2.5rem;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .timeline-item:nth-child(odd) {
+    padding-left: 2.5rem;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .timeline-dot {
+    left: 20px;
+  }
+
+  .timeline-content-wrapper {
+    flex-direction: row !important;
+    padding-left: 2.5rem;
+  }
+
+  .company-logo {
+    margin: 0 1rem 0 0;
+  }
+
+  .timeline-content {
+    width: calc(100% - 4rem);
+  }
+}
