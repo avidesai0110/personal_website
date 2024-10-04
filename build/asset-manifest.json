@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal_website/static/css/main.0fc6449f.css",
-    "main.js": "/personal_website/static/js/main.aad5dbee.js",
+    "main.js": "/personal_website/static/js/main.4824559f.js",
     "static/js/453.253ccfac.chunk.js": "/personal_website/static/js/453.253ccfac.chunk.js",
     "static/media/hogwarts.jpg": "/personal_website/static/media/hogwarts.9b9c1a57742e87c886c0.jpg",
     "static/media/grad.jpg": "/personal_website/static/media/grad.7275257617123cea996e.jpg",
@@ -9,11 +9,11 @@
     "static/media/profile.jpg": "/personal_website/static/media/profile.15d99bcc202886855aea.jpg",
     "index.html": "/personal_website/index.html",
     "main.0fc6449f.css.map": "/personal_website/static/css/main.0fc6449f.css.map",
-    "main.aad5dbee.js.map": "/personal_website/static/js/main.aad5dbee.js.map",
+    "main.4824559f.js.map": "/personal_website/static/js/main.4824559f.js.map",
     "453.253ccfac.chunk.js.map": "/personal_website/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fc6449f.css",
-    "static/js/main.aad5dbee.js"
+    "static/js/main.4824559f.js"
   ]
 }
