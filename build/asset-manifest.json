@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal_website/static/css/main.0fc6449f.css",
-    "main.js": "/personal_website/static/js/main.4824559f.js",
-    "static/js/453.253ccfac.chunk.js": "/personal_website/static/js/453.253ccfac.chunk.js",
-    "static/media/hogwarts.jpg": "/personal_website/static/media/hogwarts.9b9c1a57742e87c886c0.jpg",
-    "static/media/grad.jpg": "/personal_website/static/media/grad.7275257617123cea996e.jpg",
-    "static/media/Gradpic.jpeg": "/personal_website/static/media/Gradpic.bf73f2847d3d6829868f.jpeg",
-    "static/media/profile.jpg": "/personal_website/static/media/profile.15d99bcc202886855aea.jpg",
-    "index.html": "/personal_website/index.html",
-    "main.0fc6449f.css.map": "/personal_website/static/css/main.0fc6449f.css.map",
-    "main.4824559f.js.map": "/personal_website/static/js/main.4824559f.js.map",
-    "453.253ccfac.chunk.js.map": "/personal_website/static/js/453.253ccfac.chunk.js.map"
+    "main.css": "/static/css/main.0fc6449f.css",
+    "main.js": "/static/js/main.171241c2.js",
+    "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
+    "static/media/hogwarts.jpg": "/static/media/hogwarts.9b9c1a57742e87c886c0.jpg",
+    "static/media/grad.jpg": "/static/media/grad.7275257617123cea996e.jpg",
+    "static/media/Gradpic.jpeg": "/static/media/Gradpic.bf73f2847d3d6829868f.jpeg",
+    "static/media/profile.jpg": "/static/media/profile.15d99bcc202886855aea.jpg",
+    "index.html": "/index.html",
+    "main.0fc6449f.css.map": "/static/css/main.0fc6449f.css.map",
+    "main.171241c2.js.map": "/static/js/main.171241c2.js.map",
+    "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fc6449f.css",
-    "static/js/main.4824559f.js"
+    "static/js/main.171241c2.js"
   ]
 }
