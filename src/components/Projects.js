@@ -8,13 +8,13 @@ const Projects = () => {
   const projects = [
     {
       title: 'Shoe-Ecommerce Website',
-      description: 'A personal portfolio website showcasing my projects and experiences.',
+      description: 'Built a website using React.js and a RESTful backend for data flow. Used a MYSql database to store listings.',
       link: 'https://github.com/avidesai0110/Shoe_ecommerce_',
       image: project1Image,
     },
     {
       title: 'Credit Card Fraud Decector',
-      description: 'Build a Credit Card Fraud Detector using Python witht he numpy, pandas, and sklearn.',
+      description: 'Build a Credit Card Fraud Detector using Python with the Numpy, Pandas, and Sklearn libraries.',
       link: 'https://github.com/avidesai0110/Credit_Card_Fraud',
       image: project3Image,
     },
