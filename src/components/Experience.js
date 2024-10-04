@@ -3,7 +3,7 @@ import React from 'react';
 import './Experience.css';
 import company1 from '/Users/avi/Desktop/personal_website/src/clio___cloud_based_legal_technology_logo.jpeg';
 import company2 from '/Users/avi/Desktop/personal_website/src/digitalforcescorporation_logo.jpeg';
-import company3 from '/Users/avi/Desktop/personal_website/revenuecat_logo.jpeg';
+import company3 from '/Users/avi/Desktop/personal_website/src/revenuecat_logo.jpeg';
 
 const Experience = () => {
   const experiences = [

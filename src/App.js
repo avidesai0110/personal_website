@@ -55,34 +55,44 @@ function App() {
     // Ignore pointer events on the canvas
     renderer.domElement.style.pointerEvents = 'none';
 
-    // Light setup
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.9);
-    scene.add(ambientLight);
+// Light setup
+// Light setup with increased intensity
+const ambientLight = new THREE.AmbientLight(0xffffff, 15); // Increased from 0.9 to 1.5 for more brightness
+scene.add(ambientLight);
 
-    const pointLight = new THREE.PointLight(0xffffff, 0.6);
-    pointLight.position.set(200, 300, 400);
-    scene.add(pointLight);
 
-    // Store meshes for animation
-    const meshes = geometries.map((geometry, index) => {
-      const material = new THREE.MeshPhongMaterial({ color: colors[index] });
-      const mesh = new THREE.Mesh(geometry, material);
 
-      const positions = [
-        { x: -300, y: 150, z: 100 },
-        { x: 300, y: 150, z: 100 },
-        { x: -400, y: 0, z: 100 },
-        { x: 400, y: 0, z: 100 },
-        { x: -300, y: -150, z: 100 },
-        { x: 300, y: -150, z: 100 },
-      ];
+// Add an extra light for even more illumination
+const directionalLight = new THREE.DirectionalLight(0xffffff, 7.0); // Added directional light for better illumination
+directionalLight.position.set(-300, 500, 400);
+scene.add(directionalLight);
 
-      const position = positions[index % positions.length];
-      mesh.position.set(position.x, position.y, position.z);
 
-      scene.add(mesh);
-      return mesh;
-    });
+// Store meshes for animation
+const meshes = geometries.map((geometry, index) => {
+  const material = new THREE.MeshStandardMaterial({
+    color: colors[index],  // Keep the existing colors
+    metalness: 0.8,        // Increased metalness to make it shinier
+    roughness: 0.1,        // Reduced roughness to make the surface smoother and more reflective
+  });
+  const mesh = new THREE.Mesh(geometry, material);
+
+  const positions = [
+    { x: -300, y: 150, z: 100 },
+    { x: 300, y: 150, z: 100 },
+    { x: -400, y: 0, z: 100 },
+    { x: 400, y: 0, z: 100 },
+    { x: -300, y: -150, z: 100 },
+    { x: 300, y: -150, z: 100 },
+  ];
+
+  const position = positions[index % positions.length];
+  mesh.position.set(position.x, position.y, position.z);
+
+  scene.add(mesh);
+  return mesh;
+});
+
 
     // Animate the shapes with a very subtle movement
     let time = 0;
